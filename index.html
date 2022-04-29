@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="title"><h1>ToDo List</h1></div>
+    <div class="search-block">
+      <div class="container">
+        <input type="search" placeholder="" />
+        <button id="btnAdd" class="btn Add">Добавить</button>
+      </div>
+
+      <hr />
+      <div id="list" class="container"></div>
+      <div class="deleteButtons">
+        <button id="clearCompleted" class="btn deleteDone">
+          Удалить завершенные
+        </button>
+        <button id="deleteAll" class="btn deleteAll">Удалить все</button>
+      </div>
+    </div>
+    <script src="js/script.js"></script>
+  </body>
+</html>

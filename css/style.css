@@ -1,0 +1,106 @@
+body {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
+
+.title {
+  margin-top: 80px;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 58px;
+  line-height: 70px;
+  color: #000000;
+}
+
+.search-block {
+  margin-top: 33px;
+  width: 594px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background: #ffffff;
+  box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+  border-radius: 16px;
+}
+
+.container {
+  padding: 24px;
+}
+
+.btn {
+  padding: 10px;
+  left: 598px;
+  top: 207px;
+  border: none;
+  background: #272829;
+  border-radius: 4px;
+  cursor: pointer;
+
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.btn:hover {
+  background: #56585a;
+  transition: 0.3s;
+}
+
+input[type="search"] {
+  background: #ffffff;
+  padding: 10px;
+  width: 356px;
+  height: 38px;
+  border: 1px solid #ced4da;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+.delete {
+  background: none;
+  border: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+  text-align: left;
+}
+
+.task {
+  display: grid;
+  grid-template-columns: 5% 90% 5%;
+}
+
+.deleteDone {
+  width: 214px;
+  background: #6c757d;
+}
+
+.deleteButtons {
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  background: #f5f5f5;
+  border-radius: 0px 0px 16px 16px;
+}
+
+.deleteAll {
+  background: #dc3545;
+}
+
+.checked {
+  text-decoration: line-through;
+}
